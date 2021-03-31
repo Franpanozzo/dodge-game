@@ -48,6 +48,7 @@ public class Main : Node
         var hud = GetNode<HUD>("HUD");
         hud.UpdateScore(_score);
         hud.ShowMessage("Get Ready!");
+        //asheee
     }
 
     public void OnStartTimerTimeout()
