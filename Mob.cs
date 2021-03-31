@@ -20,6 +20,7 @@ public class Mob : RigidBody2D
     public void OnVisibilityNotifier2DScreenExited()
     {
         QueueFree();
+        //saludo copaa
     }
 
     //  // Called every frame. 'delta' is the elapsed time since the previous frame.
